@@ -5,7 +5,7 @@ def factorial(n):
     result = 1
     while n > 1:
         result *= n
-        n -= 1  # Bu xətti əlavə et
+        n -= 1
     return result
 
 f = factorial(int(sys.argv[1]))
